@@ -11,8 +11,8 @@ namespace MyApp.Controllers
             return View(item);
         }
 
-        public IActionResult Edit(int id) {
-            return Content("id= " + id);
+        public IActionResult Edit(int itemId) {
+            return Content("id= " + itemId);
         }
     }
 
